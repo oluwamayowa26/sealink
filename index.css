@@ -1,0 +1,213 @@
+.banner{
+    background: url(./assets.img/Group\ 24.1.svg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+}
+
+navbar{ 
+    padding: .8rem; 
+
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link{ 
+    font-size: 1.1em !important;
+}
+
+* {
+    box-sizing:border-box;
+  }
+  .clearfix:before,
+  .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  /* .vertical-tabs:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -1px;
+    z-index: 1;
+    border: 1px solid black; */
+  }
+  .vertical-tabs:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .vertical-tabs {
+    position: relative;
+    margin-left: 200px;
+  }
+  .tabs {
+    position: relative;
+    float: left;
+    width: 200px;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -200px;
+    width: 500px;
+    
+      
+  }
+  .tabs li {
+    position: relative;
+    list-style: none;
+  }
+  .tabs li:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tabs li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:white;
+    padding-right: 40px;
+    
+    /* border: 1px solid #ddd;
+    border-right: 1px  solid black; */
+  }
+  .tabs li.notactive a { 
+      background-color: rgb(255, 255, 255);
+      margin-top: 10px;
+      box-shadow: 0px 0px 5px #cccccc;
+  }
+  .tabs li.active a {
+    z-index: 2;
+    background-color:white;
+    tab-size: 40px;
+    width: 500px;
+    box-shadow: 0px 0px 4px #cccccc;
+    
+    
+  }
+  .tabs li.notactive1 a {
+    background-color: white;
+      margin-top: 10px;
+      box-shadow: 0px 0px 5px #cccccc;
+  }
+  .tabs.notactive2  {
+    background-color: rgb(255, 255, 255);
+      margin-top: 10px;
+      box-shadow: 0px 0px 5px #cccccc;
+    
+  }
+  .tabs-content .content {
+    display: none;
+    padding: 10px;
+  }
+  .tabs-content .content.active {
+    display: block;
+  }
+
+  .objectivetxt{
+    /* display: flex; */
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .verticaltab{
+      font-weight:500;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .proposition{
+    /* background-color: #EAF2F6; */
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  
+  .poptext{
+    color: #075779;
+    font-weight: 600;
+    text-align: center;
+    /* position:relative; */
+    padding-top: 30px;
+    
+  }
+  .proposition1{
+    background-color: #EAF2F6;
+  }
+
+  
+  * {box-sizing: border-box}
+
+  /* Style the tab */
+  .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 22px 16px;
+    width: 500px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px #cccccc;
+    height: 40%;
+    font-size: 16px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #075779;
+    color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    
+    width: 70%;
+    border-left: none;
+    height: 100%;
+    background-repeat: no-repeat;
+  } 
+
+  /* .shipment */
+  .shipment{
+    background: url(./assets.img/Group\ 30.svg);
+    /* width:100px */
+    height: 500px;
+    background-repeat: no-repeat;
+  }
+
+  @media only screen and (max-width: 600px) 
+     {.proposition1
+      
+    }

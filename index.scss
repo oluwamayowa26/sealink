@@ -1,0 +1,65 @@
+.tabs li.notactive a { 
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px #cccccc;
+}
+.tabs li.active a {
+  z-index: 2;
+  background-color:white;
+  tab-size: 40px;
+  width: 500px;
+  box-shadow: 0px 0px 4px #cccccc;
+  
+  
+}
+.tabs li.notactive1 a {
+  background-color: white;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px #cccccc;
+}
+.tabs li.notactive2 a {
+  background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px #cccccc;
+  
+}
+.tabs-content .content {
+  display: none;
+  padding: 10px;
+}
+.tabs-content .content.active {
+  display: block;
+}
+
+.objectivetxt{
+  /* display: flex; */
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.verticaltab{
+    font-weight:500;
+    text-align: center;
+    margin-top: 30px;
+}
+.proposition{
+  /* background-color: #EAF2F6; */
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+
+.poptext{
+  color: #075779;
+  font-weight: 600;
+  text-align: center;
+  /* position:relative; */
+  padding-top: 30px;
+  
+}
+.proposition1{
+  background-color: #EAF2F6;
+}
