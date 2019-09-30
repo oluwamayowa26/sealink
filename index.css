@@ -1,12 +1,13 @@
 .banner{
     background: url(./assets.img/Group\ 24.1.svg);
     height: 95vh;
+    
     background-repeat: no-repeat;
     /* background-size: cover; */
 
 }
 
-navbar{ 
+.navbar{ 
     padding: .8rem; 
 
 }
@@ -28,91 +29,7 @@ navbar{
   .clearfix:after {
     clear: both;
   }
-  /* .vertical-tabs:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: -1px;
-    z-index: 1;
-    border: 1px solid black; */
-  }
-  .vertical-tabs:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .vertical-tabs {
-    position: relative;
-    margin-left: 200px;
-  }
-  .tabs {
-    position: relative;
-    float: left;
-    width: 200px;
-    padding-left: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: -200px;
-    width: 500px;
-    
-      
-  }
-  .tabs li {
-    position: relative;
-    list-style: none;
-  }
-  .tabs li:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .tabs li a {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    background-color:white;
-    padding-right: 40px;
-    
-    /* border: 1px solid #ddd;
-    border-right: 1px  solid black; */
-  }
-  .tabs li.notactive a { 
-      background-color: rgb(255, 255, 255);
-      margin-top: 10px;
-      box-shadow: 0px 0px 5px #cccccc;
-  }
-  .tabs li.active a {
-    z-index: 2;
-    background-color:white;
-    tab-size: 40px;
-    width: 500px;
-    box-shadow: 0px 0px 4px #cccccc;
-    
-    
-  }
-  .tabs li.notactive1 a {
-    background-color: white;
-      margin-top: 10px;
-      box-shadow: 0px 0px 5px #cccccc;
-  }
-  .tabs.notactive2  {
-    background-color: rgb(255, 255, 255);
-      margin-top: 10px;
-      box-shadow: 0px 0px 5px #cccccc;
-    
-  }
-  .tabs-content .content {
-    display: none;
-    padding: 10px;
-  }
-  .tabs-content .content.active {
-    display: block;
-  }
+ 
 
   .objectivetxt{
     /* display: flex; */
@@ -122,11 +39,7 @@ navbar{
     position: relative;
   }
 
-  .verticaltab{
-      font-weight:500;
-      text-align: center;
-      margin-top: 30px;
-  }
+  /
   .proposition{
     /* background-color: #EAF2F6; */
     align-content: center;
@@ -146,6 +59,7 @@ navbar{
   }
   .proposition1{
     background-color: #EAF2F6;
+
   }
 
   
@@ -202,12 +116,91 @@ navbar{
   /* .shipment */
   .shipment{
     background: url(./assets.img/Group\ 30.svg);
-    /* width:100px */
-    height: 500px;
+    /* width:100% */
+    height: 250px;
     background-repeat: no-repeat;
+    color: white;
+    font-weight: 600;
   }
+  /* .rectangle{
+    background-color: white;
+  } */
+  #TRADING{ color: #075779;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+    justify-content: center;
+    display: flex;
+     }
+     .spt{
+       font-size: 20px;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 40px;
+     }
 
+     .br{
+       justify-content: center;
+       display: flex;
+       text-align: center;
+     }
+
+     .map{
+       justify-content: right;
+       padding-left: 90px;
+     }
+     
+     .box {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 35px auto;
+      
+      background: -webkit-radial-gradient(65% 15%, circle, rgba(0,255,255, 0.4), rgba(0,0,255, 0.4)),
+      -webkit-radial-gradient(45% 15%, green, red);
+    /*	background: -moz-radial-gradient(65% 15%, circle, aqua, darkblue);
+      background: -o-radial-gradient(65% 15%, circle, aqua, darkblue);
+      background: -ms-radial-gradient(65% 15%, circle, aqua, darkblue);
+    */}
+    .boxcontent{
+      position: relative; top:25px; left: 40px;
+      color: white;
+      font-weight: 500;
+      font-size: 30px;
+      /* padding-top:  */
+      
+    }
+    .po{
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+      margin-top: 60px;
+    }
+    .ins{
+      background-color: #EAF2F6
+    }
+
+    .insight{ 
+      font-weight: bold;
+      color: #075779;
+      justify-content: center;
+      display: flex;
+
+    }
+}
   @media only screen and (max-width: 600px) 
      {.proposition1
       
     }
+.container {
+  overflow: hidden;
+  height: 500px;
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.verticaltab{ font-weight: bold;
+  color: #075779;
+  padding-bottom: 20px;
+
+}
